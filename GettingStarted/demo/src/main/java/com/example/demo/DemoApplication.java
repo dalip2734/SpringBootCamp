@@ -13,6 +13,12 @@ public class DemoApplication {
 		SpringApplication.run(DemoApplication.class, args);
 	}
 
+
+	@GetMapping("/")
+	public String welcome() {
+		return "Enter .../hello";
+	}
+
 	@GetMapping("/hello")
 	public String sayHello() {
 		return "Hello, Spring Boot!";
