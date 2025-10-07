@@ -19,4 +19,8 @@ public class DemoApplication {
 	public String sayHello() {
 		return "Hello, Spring Boot!";
 	}
+	@GetMapping("/dalip")
+	public String get() {
+		return "I am Dalip.";
+	}
 }
