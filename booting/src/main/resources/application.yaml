@@ -1,17 +1,21 @@
 spring:
   application:
     name: booting
+
 ---
+
 spring:
   config:
-   activate:
-    on-profile:dev
+    activate:
+      on-profile: dev
 server:
-    port: 8083
+  port: 8083
 ---
+
 spring:
   config:
-   activate:
-    on-profile:test
+    activate:
+      on-profile: test
+
 server:
-    port: 8086
+  port: 8085
