@@ -22,7 +22,6 @@ Before running this project, ensure that you have the following tools installed:
 
 - **JDK 11+** (for building and running the application)
 - **Maven** or **Gradle** (for dependency management and build automation)
-- **Docker** (for containerizing the application)
 - **IDE** (e.g., IntelliJ IDEA, VS Code, Eclipse, etc.)
 
 ---
