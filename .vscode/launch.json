@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BootingApplication",
+            "request": "launch",
+            "mainClass": "com.dalipkumar.booting.BootingApplication",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "Spring Boot-DemoApplication<demo>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
